@@ -107,21 +107,21 @@ management.endpoints.web.exposure.include=health,info
   ```bash
   curl -X POST \
        -H "Content-Type: application/json" \
-       -d '{"nombre":"Ana","email":"ana@ejemplo.com"}' \
+       -d '{"nombre":"Ana","email":"ana@mail.com"}' \
        http://localhost:8080/api/v1/users
   ```
 - **Actualizar usuario**
   ```bash
   curl -X PUT \
        -H "Content-Type: application/json" \
-       -d '{"nombre":"Ana María","email":"ana.maria@ejemplo.com"}' \
+       -d '{"nombre":"Ana María","email":"ana.maria@mail.com"}' \
        http://localhost:8080/api/v1/users/1
   ```
 - **Parchear usuario**
   ```bash
   curl -X PATCH \
        -H "Content-Type: application/json" \
-       -d '{"email":"nuevo@dominio.com"}' \
+       -d '{"email":"nuevo@mail.com"}' \
        http://localhost:8080/api/v1/users/1
   ```
 - **Eliminar usuario**
@@ -133,18 +133,15 @@ management.endpoints.web.exposure.include=health,info
 
 ## 📘 Colección Postman
 
-Importa la colección `postman/usersapp.postman_collection.json` para probar todos los endpoints de manera interactiva.
+/\*\*
 
----
-
-## 🤝 Contribuciones
-
-¡Las contribuciones son bienvenidas!
-
-1. Haz un fork del repositorio
-2. Crea tu branch (`git checkout -b feature/nueva-funcionalidad`)
-3. Realiza tus cambios y haz commit (`git commit -m "Agrega nueva funcionalidad"`)
-4. Envía un pull request
+- Esta función/método puede ser probada utilizando POSTMAN, una herramienta popular para probar APIs REST.
+- Puedes importar la siguiente URL en POSTMAN para realizar solicitudes a este endpoint:
+-
+- [Abrir en POSTMAN](https://www.postman.com/)
+-
+- Asegúrate de configurar correctamente el método HTTP, los headers y el body según corresponda.
+  \*/
 
 ---
 
