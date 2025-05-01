@@ -1,4 +1,4 @@
-# usersapp
+# User App Básico
 
 ## Descripción
 
@@ -20,7 +20,7 @@ curl -X GET http://localhost:8080/api/v1/users
 curl -X POST -H "Content-Type: application/json" -d '{"nombre":"Ana","email":"ana@ejemplo.com"}' http://localhost:8080/api/v1/users
 ```
 
-# Usersapp
+# User App Básico
 
 [![Java](https://img.shields.io/badge/Java-17-blue)](https://www.oracle.com/java/) [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-green)](https://spring.io/projects/spring-boot) [![Maven](https://img.shields.io/badge/Maven-3.8.5-red)](https://maven.apache.org/) [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
@@ -28,7 +28,7 @@ curl -X POST -H "Content-Type: application/json" -d '{"nombre":"Ana","email":"an
 
 ## 🚀 Descripción
 
-**Usersapp** es una API REST sencilla para gestionar usuarios. Construida con Spring Boot, Spring Data JPA y MySQL, permite realizar operaciones CRUD sobre una entidad `User` con los campos:
+**User App Básico** es una API REST sencilla para gestionar usuarios. Construida con Spring Boot, Spring Data JPA y MySQL, permite realizar operaciones CRUD sobre una entidad `User` con los campos:
 
 - `id` (Long)
 - `nombre` (String)
@@ -92,7 +92,7 @@ management.endpoints.web.exposure.include=health,info
 
 1. Clona este repositorio
    ```bash
-   git clone https://github.com/tu-usuario/user-app-basic.git
+   git clone https://github.com/cifp-villa-aguimes/user-app-basic.git
    ```
 2. Entra al directorio del proyecto
    ```bash
