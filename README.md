@@ -47,6 +47,8 @@
 
 ## 📝 Configuración
 
+> **Nota:** Antes de ejecutar, crea la base de datos `usersdb` en MySQL o ajusta el nombre de la base de datos en `application.properties` según tu configuración.
+
 Renombra o crea `src/main/resources/application.properties` con tus credenciales de MySQL:
 
 ```properties
