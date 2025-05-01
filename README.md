@@ -1,27 +1,5 @@
 # User App Básico
 
-## Descripción
-
-API REST sencilla para gestionar usuarios con Spring Boot, JPA y MySQL.
-
-## Endpoints
-
-- `GET /api/v1/users`
-- `GET /api/v1/users/{id}`
-- `POST /api/v1/users`
-- `PUT /api/v1/users/{id}`
-- `PATCH /api/v1/users/{id}`
-- `DELETE /api/v1/users/{id}`
-
-## Ejemplos
-
-```bash
-curl -X GET http://localhost:8080/api/v1/users
-curl -X POST -H "Content-Type: application/json" -d '{"nombre":"Ana","email":"ana@ejemplo.com"}' http://localhost:8080/api/v1/users
-```
-
-# User App Básico
-
 [![Java](https://img.shields.io/badge/Java-17-blue)](https://www.oracle.com/java/) [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-green)](https://spring.io/projects/spring-boot) [![Maven](https://img.shields.io/badge/Maven-3.8.5-red)](https://maven.apache.org/) [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ---
