@@ -135,15 +135,13 @@ management.endpoints.web.exposure.include=health,info
 
 ## 📘 Colección Postman
 
-/\*\*
+Puedes probar la API fácilmente usando [Postman](https://www.postman.com/), una herramienta popular para testear APIs REST.
 
-- Esta función/método puede ser probada utilizando POSTMAN, una herramienta popular para probar APIs REST.
-- Puedes importar la siguiente URL en POSTMAN para realizar solicitudes a este endpoint:
--
-- [Abrir en POSTMAN](https://www.postman.com/)
--
-- Asegúrate de configurar correctamente el método HTTP, los headers y el body según corresponda.
-  \*/
+- Abre Postman.
+- Configura el método HTTP, los encabezados (`Content-Type: application/json`) y el cuerpo de la petición según el endpoint que quieras probar.
+- Ejecuta las solicitudes y revisa las respuestas directamente desde Postman.
+
+> **Nota:** Asegúrate de que la API esté en ejecución (`http://localhost:8080`) antes de realizar las pruebas.
 
 ---
 
